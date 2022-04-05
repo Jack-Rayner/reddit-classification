@@ -12,7 +12,7 @@ This project aims through the use of NLP to discover the most distinguishing fea
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
 |**title**|*str*|reddit_posts_clean.csv|Title of Reddit post| 
-|**selftext**|*str*|scores_2019_all_df|Text body of Reddit post|
+|**selftext**|*str*|reddit_posts_clean.csv|Text body of Reddit post|
 |**subreddit**|*str*|reddit_posts_clean.csv|Subreddit the post was posted to|
 |**created_utc**|*numpy.int64*|reddit_posts_clean.csv|Date and time the reddit post was created|
 |**target**|*int*|reddit_posts_clean.csv|Bianerized version of subreddit column (0 being askscience and 1 being unpopularopinion)|
