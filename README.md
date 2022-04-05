@@ -15,7 +15,7 @@ This project aims through the use of NLP to discover the most distinguishing fea
 |**selftext**|*str*|reddit_posts_clean.csv|Text body of Reddit post|
 |**subreddit**|*str*|reddit_posts_clean.csv|Subreddit the post was posted to|
 |**created_utc**|*numpy.int64*|reddit_posts_clean.csv|Date and time the reddit post was created|
-|**target**|*int*|reddit_posts_clean.csv|Bianerized version of subreddit column (0 being askscience and 1 being unpopularopinion)|
+|**target**|*int*|reddit_posts_clean.csv|Binarized version of subreddit column (0 being askscience and 1 being unpopularopinion)|
 |**all_text**|*str*|reddit_posts_clean.csv|Text from title and selftext columns combined to one string|
 |**word_count**|*integer*|reddit_posts_clean.csv|Total number of words in the post (both title and selftext)|
 |**sentiment**|*float*|reddit_posts_clean.csv|The sentiment of the text in a given post, ranging from 1 to -1 (most positive and most negative respectivly)|
